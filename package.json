@@ -1,7 +1,7 @@
 {
   "name": "react-bread-crumb",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "library for managing bread crumbs in react",
   "author": "jan-leila",
   "license": "MIT",
   "repository": "jan-leila/react-bread-crumb",
