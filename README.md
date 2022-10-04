@@ -1,11 +1,11 @@
 # react-bread-crumb
 
-[![NPM](https://img.shields.io/npm/v/react-bread-crumb.svg)](https://www.npmjs.com/package/react-bread-crumb) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@jan-leila/react-bread-crumb.svg)](https://www.npmjs.com/package/@jan-leila/react-bread-crumb) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-bread-crumb
+npm install --save @jan-leila/react-bread-crumb
 ```
 
 ## Basic Usage
@@ -13,8 +13,7 @@ npm install --save react-bread-crumb
 ```jsx
 import React, { Component } from 'react'
 
-import { Breadcrumb, useTrailView, useCrumb } from 'react-bread-crumb'
-import 'react-bread-crumb/dist/index.css'
+import { Breadcrumb, useTrailView, useCrumb } from '@jan-leila/react-bread-crumb'
 
 const App = () => {
   return (
