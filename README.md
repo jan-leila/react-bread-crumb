@@ -35,13 +35,12 @@ const Page = () => {
 
 ## Advanced usage
 
-`useRawTrail()` - the raw trail can get exported if you would like to use it to re initialize it when Breadcrumb reloads 
-`<Breadcrumb trail={...} />` - trail can be provided to Breadcrumb to initialize the crumb on reloads
-
-`useRootCrumb(crumb)` - useRootCrumb can be used to set a root element that will reset the trail
-`<RootCrumb crumb={...} />` - RootCrumb can be used in the same way as useRootCrumb
-`useCrumb(crumb, id)` - useCrumb can be provided and id that will be used to truncate the trail when a match is found earlier in the trail
-`<Crumb crumb={...} id={...} />` - Crumb can be used in the same way as useCrumb
+`useRawTrail()` - the raw trail can get exported if you would like to use it to re initialize it when Breadcrumb reloads    
+`<Breadcrumb trail={...} />` - trail can be provided to Breadcrumb to initialize the crumb on reloads   
+`useRootCrumb(crumb)` - useRootCrumb can be used to set a root element that will reset the trail   
+`<RootCrumb crumb={...} />` - RootCrumb can be used in the same way as useRootCrumb   
+`useCrumb(crumb, id)` - useCrumb can be provided and id that will be used to truncate the trail when a match is found earlier in the trail   
+`<Crumb crumb={...} id={...} />` - Crumb can be used in the same way as useCrumb   
 
 ## License
 
