@@ -1,7 +1,7 @@
 import React, { Fragment, useMemo } from 'react'
 import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
 
-import { BreadcrumbProvider, useCrumb, useTrailView, useRootCrumb } from 'react-bread-crumb'
+import { Breadcrumb, useCrumb, useTrail, useRootCrumb } from 'react-bread-crumb'
 
 const Home = () => {
   const crumb = useMemo(() => {
@@ -72,7 +72,7 @@ const Page3 = () => {
 }
 
 const BreadCrumb = () => {
-  const trail = useTrailView()
+  const trail = useTrail()
 
   return (
     <>
@@ -97,7 +97,7 @@ const BreadCrumb = () => {
 
 const App = () => {
   return <React.StrictMode>
-    <BreadcrumbProvider>
+    <Breadcrumb>
       <BrowserRouter>
         <Routes>
           <Route path="*" element={<BreadCrumb />}>
@@ -108,7 +108,7 @@ const App = () => {
           </Route>
         </Routes>
       </BrowserRouter>
-    </BreadcrumbProvider>
+    </Breadcrumb>
   </React.StrictMode>
 }
 

@@ -5,7 +5,7 @@ const breadcrumbContext = createContext([])
 const ADD_CRUMB = Symbol()
 const RESET_TRAIL = Symbol()
 
-export const BreadcrumbProvider = ({ children, trail: initial_trail = [] }) => {
+export const Breadcrumb = ({ children, trail: initial_trail = [] }) => {
   const [ count, setCount ] = useState(0)
   const [ trail, dispatch ] = useReducer((trail, { action, crumb }) => {
     switch(action){
@@ -117,12 +117,12 @@ export const Crumb = (crumb, id) => {
   return <></>
 }
 
-export const useTrailView = () => {
+export const useTrail = () => {
   const { trailView } = useContext(breadcrumbContext)
   return trailView
 }
 
-export const useTrail = () => {
+export const useRawTrail = () => {
   const { trail } = useContext(breadcrumbContext)
   return trail
 }
