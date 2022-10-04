@@ -11,9 +11,10 @@
   },
   "dependencies": {
     "react": "file:../node_modules/react",
+    "react-bread-crumb": "file:..",
     "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
-    "react-bread-crumb": "file:.."
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "file:../node_modules/react-scripts"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"

@@ -1,11 +1,10 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
     "standard-react",
-    "plugin:prettier/recommended",
     "prettier/standard",
-    "prettier/react"
+    "prettier/react",
+    "plugin:react/jsx-runtime"
   ],
   "env": {
     "node": true
